@@ -1,0 +1,79 @@
+=== SINGLETON PATTERN DEMONSTRATION ===
+
+1. Basic Singleton Implementation (Thread-Safe):
+----------------------------------------
+Initialized Singleton
+Created new Singleton instance
+Data: Singleton Data
+Returning existing Singleton instance
+Data: Singleton Data, Additional Info
+
+Are s1 and s2 the same instance? True
+s1: <Singleton at 0x79a39addcf20>
+s2: <Singleton at 0x79a39addcf20>
+Data: Singleton Data, Additional Info, More Data
+
+
+2. Decorator-based Singleton:
+----------------------------------------
+ConfigManager initialized
+Created new ConfigManager instance via decorator
+Config theme: dark
+Updated config: language = fr
+Updated config: timeout = 30
+Current configuration:
+  theme: dark
+  language: fr
+  version: 1.0.0
+  timeout: 30
+Returning existing ConfigManager instance via decorator
+
+Config language from config2: fr
+
+Are config1 and config2 the same instance? True
+config1: <ConfigManager at 0x79a39addcbf0>
+config2: <ConfigManager at 0x79a39addcbf0>
+Removed config key: timeout
+Current configuration:
+  theme: dark
+  language: fr
+  version: 1.0.0
+
+
+3. Multiple Singleton Calls:
+----------------------------------------
+Returning existing Singleton instance
+Returning existing Singleton instance
+Returning existing Singleton instance
+Instance 1: <Singleton at 0x79a39addcf20>
+Instance 2: <Singleton at 0x79a39addcf20>
+Instance 3: <Singleton at 0x79a39addcf20>
+
+All instances are the same: True
+
+
+4. Database Connection Singleton Example:
+----------------------------------------
+Database pool initialized: postgresql://localhost:5432/mydb
+Created new DatabaseConnection instance
+Returning existing DatabaseConnection instance
+db1 connection: Connection from postgresql://localhost:5432/mydb
+db1 is db2: True
+
+
+5. Thread Safety Demonstration:
+----------------------------------------
+Returning existing Singleton instance
+[Thread-0] Singleton id: 133743584857888
+Returning existing Singleton instance
+[Thread-1] Singleton id: 133743584857888
+Returning existing Singleton instance
+[Thread-2] Singleton id: 133743584857888
+Returning existing Singleton instance
+[Thread-3] Singleton id: 133743584857888
+Returning existing Singleton instance
+[Thread-4] Singleton id: 133743584857888
+
+✓ All threads completed successfully!
+
+=== Code Execution Successful ===
