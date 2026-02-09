@@ -1,0 +1,29 @@
+=== Regular Database Access ===
+Connecting to ProductionDB database...
+Loading data from ProductionDB...
+Executing query on ProductionDB: SELECT * FROM users
+Results for: SELECT * FROM users
+
+=== Proxy with Access Control ===
+Connecting to SecureDB database...
+Loading data from SecureDB...
+Executing query on SecureDB: SELECT * FROM employees
+Log: Query executed - SELECT * FROM employees
+Results for: SELECT * FROM employees
+
+=== Proxy with Caching ===
+Connecting to ProductDB database...
+Loading data from ProductDB...
+Executing query on ProductDB: SELECT * FROM products
+Results for: SELECT * FROM products
+Returning cached results for: SELECT * FROM products
+Results for: SELECT * FROM products
+Executing query on ProductDB: SELECT * FROM orders
+Results for: SELECT * FROM orders
+Returning cached results for: SELECT * FROM products
+Results for: SELECT * FROM products
+
+=== Testing Access Control ===
+Access Denied: Insufficient permissions
+
+=== Code Execution Successful ===
