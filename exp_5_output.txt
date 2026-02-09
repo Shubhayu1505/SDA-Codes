@@ -1,0 +1,18 @@
+File System Structure:
+----------------------
+Directory: MyComputer (7050 KB)
+  Directory: Documents (550 KB)
+    File: resume.pdf (200 KB)
+    File: notes.txt (50 KB)
+    File: report.doc (300 KB)
+  Directory: Pictures (1500 KB)
+    File: photo.png (1500 KB)
+  Directory: Videos (5000 KB)
+    File: movie.mp4 (5000 KB)
+
+Size Information:
+File 'resume.pdf': 200 KB
+Directory 'Documents': 550 KB
+Total size: 7050 KB
+
+=== Code Execution Successful ===
