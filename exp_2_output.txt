@@ -1,0 +1,6 @@
+Email Notification Sent: Welcome to our platform!
+SMS Notification Sent: Your OTP is 1234.
+Push Notification Sent: You have a new message.
+Unknown notification type: fax
+
+=== Code Execution Successful ===
