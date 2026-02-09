@@ -12,39 +12,48 @@ Course Name: SOFTWARE ARCHITECTURE AND DESIGN
 
 ### Lab 2: Factory Pattern
 Implementation of Factory Method pattern for object creation without exposing instantiation logic.  
-[Experiment 2 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_2.py)
+- [Experiment 2 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_2.py)
+- [Experiment 2 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_2_output.txt)
 
 ### Lab 3: Abstract Factory Pattern
 Implementation of Abstract Factory pattern for creating families of related objects.  
-[Experiment 3 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_3.py)
+- [Experiment 3 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_3.py)
+- [Experiment 3 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_3_output.txt)
 
 ### Lab 4: Singleton Pattern
 Implementation of Singleton pattern ensuring a class has only one instance.  
-[Experiment 4 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_4.py)
+- [Experiment 4 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_4.py)
+- [Experiment 4 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_4_output.txt)
 
 ### Lab 5: Composite Pattern
 Implementation of Composite pattern for treating individual objects and compositions uniformly.  
-[Experiment 5 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_5.py)
+- [Experiment 5 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_5.py)
+- [Experiment 5 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_5_output.txt)
 
 ### Lab 6: Decorator Pattern
 Implementation of Decorator pattern to add functionality to objects dynamically.  
-[Experiment 6 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_6.py)
+- [Experiment 6 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_6.py)
+- [Experiment 6 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_6_output.txt)
 
 ### Lab 7: Proxy Pattern
 Implementation of Proxy pattern to control access to objects.  
-[Experiment 7 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_7.py)
+- [Experiment 7 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_7.py)
+- [Experiment 7 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_7_output.txt)
 
 ### Lab 8: Iterator Pattern
 Implementation of Iterator pattern for sequential access to collection elements.  
-[Experiment 8 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_8.py)
+- [Experiment 8 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_8.py)
+- [Experiment 8 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_8_output.txt)
 
 ### Lab 9: Mediator Pattern
 Implementation of Mediator pattern to reduce coupling between objects.  
-[Experiment 9 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_9.py)
+- [Experiment 9 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_9.py)
+- [Experiment 9 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_9_output.txt)
 
 ### Lab 10: Visitor Pattern
 Implementation of Visitor pattern to add operations without modifying classes.  
-[Experiment 10 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_10.py)
+- [Experiment 10 code](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_10.py)
+- [Experiment 10 output](https://github.com/Shubhayu1505/SDA-Codes/blob/main/exp_10_output.txt)
 
 ## Technologies Used
 - Python
