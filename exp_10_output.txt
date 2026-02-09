@@ -1,0 +1,14 @@
+=== Shopping Cart ===
+Book: Ramayana - Rs.500
+Mobile: Smartphone - Rs.15000
+Saree: Silk Saree - Rs.3000
+Book: Mahabharata - Rs.600
+Mobile: Tablet - Rs.8000
+
+Total Price: Rs.27100
+Total Tax: Rs.4555.00
+Total Discount: Rs.4160.00
+
+Final Amount: Rs.27495.00
+
+=== Code Execution Successful ===
