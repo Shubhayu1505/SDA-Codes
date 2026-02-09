@@ -1,0 +1,30 @@
+=== Chat Room Example ===
+Alice sends: Hello everyone!
+Bob receives: From Alice: Hello everyone!
+Charlie receives: From Alice: Hello everyone!
+Bob sends: Hi Alice!
+Alice receives: From Bob: Hi Alice!
+Charlie receives: From Bob: Hi Alice!
+Charlie sends: Good morning!
+Alice receives: From Charlie: Good morning!
+Bob receives: From Charlie: Good morning!
+
+=== Auction Example ===
+
+Starting auction for vintage car...
+Bidder Sarah: New highest bid: $1000 by John (was $1000 by None)
+Bidder Mike: New highest bid: $1000 by John (was $1000 by None)
+Bidder John: New highest bid: $1500 by Sarah (was $1500 by John)
+Bidder Mike: New highest bid: $1500 by Sarah (was $1500 by John)
+Bidder Mike: Bid rejected: $1200 is not higher than current highest: $1500
+Bidder John: New highest bid: $2000 by Sarah (was $2000 by Sarah)
+Bidder Mike: New highest bid: $2000 by Sarah (was $2000 by Sarah)
+Bidder John: Bid rejected: $1800 is not higher than current highest: $2000
+
+=== Traffic Control Example ===
+Vehicle Car2: Stop: Traffic light is red
+Vehicle Truck: Stop: Traffic light is red
+Vehicle Car1: Go: Traffic light is green
+Vehicle Truck: Go: Traffic light is green
+
+=== Code Execution Successful ===
