@@ -68,3 +68,6 @@ Each lab is implemented as a standalone Python program demonstrating the respect
 - Hands-on implementation of 10 essential design patterns
 - Ability to apply design patterns to solve real-world problems
 - Improved software design and architecture skills
+
+## LICENSE
+[MIT LICENSE](https://github.com/Shubhayu1505/SDA-Codes/blob/main/LICENSE)
