@@ -57,20 +57,20 @@ class CreamDecorator(CoffeeDecorator):
 if __name__ == "__main__":
     coffee1 = BasicCoffee()
     print("Order 1: " + coffee1.get_description())
-    print("Cost: $" + str(coffee1.get_cost()))
+    print("Cost: ₹" + str(coffee1.get_cost()))
     
     coffee2 = MilkDecorator(SugarDecorator(BasicCoffee()))
     print("\nOrder 2: " + coffee2.get_description())
-    print("Cost: $" + str(coffee2.get_cost()))
+    print("Cost: ₹" + str(coffee2.get_cost()))
     
     coffee3 = ChocolateDecorator(MilkDecorator(SugarDecorator(BasicCoffee())))
     print("\nOrder 3: " + coffee3.get_description())
-    print("Cost: $" + str(coffee3.get_cost()))
+    print("Cost: ₹" + str(coffee3.get_cost()))
     
     coffee4 = CreamDecorator(ChocolateDecorator(MilkDecorator(BasicCoffee())))
     print("\nOrder 4: " + coffee4.get_description())
-    print("Cost: $" + str(coffee4.get_cost()))
+    print("Cost: ₹" + str(coffee4.get_cost()))
     
     coffee5 = SugarDecorator(SugarDecorator(MilkDecorator(BasicCoffee())))
     print("\nOrder 5: " + coffee5.get_description())
-    print("Cost: $" + str(coffee5.get_cost()))
+    print("Cost: ₹" + str(coffee5.get_cost()))
