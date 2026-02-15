@@ -1,16 +1,16 @@
 Order 1: Basic Coffee
-Cost: $5.0
+Cost: ₹5.0
 
 Order 2: Basic Coffee, Sugar, Milk
-Cost: $7.0
+Cost: ₹7.0
 
 Order 3: Basic Coffee, Sugar, Milk, Chocolate
-Cost: $9.0
+Cost: ₹9.0
 
 Order 4: Basic Coffee, Milk, Chocolate, Cream
-Cost: $9.5
+Cost: ₹9.5
 
 Order 5: Basic Coffee, Milk, Sugar, Sugar
-Cost: $7.5
+Cost: ₹7.5
 
 === Code Execution Successful ===
